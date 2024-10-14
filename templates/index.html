@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisse Senedi Tahmini</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Hisse Senedi Tahmini</h1>
+    <form action="/" method="POST">
+        <label for="hisse_kodu">Hisse Kodu:</label>
+        <input type="text" id="hisse_kodu" name="hisse_kodu" required>
+        <button type="submit">Tahmin Et</button>
+    </form>
+</body>
+</html>
